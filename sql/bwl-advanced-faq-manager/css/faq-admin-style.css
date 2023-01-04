@@ -1,0 +1,260 @@
+.faq-sort-container{
+    height: 550px; 
+    width:  95%; 
+    overflow-x: hidden; 
+    border: 2px solid #b1b1b1; 
+    padding: 6px 12px;
+    box-sizing: border-box;
+}
+
+#bwl_faq_items{
+    box-sizing: border-box;
+
+}
+
+#bwl_faq_items .menu-item-handle{
+    width: 98%;
+    padding: 3px 3px 3px 12px;
+}
+
+#sort-status{
+    clear: both;
+}
+
+#baf_save_sorting{
+    position: fixed;
+    right: 0px;
+    top: 105px;
+}
+
+.baf-sort-menu{
+    list-style: none;
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.baf-sort-menu li{
+    float: left;
+    margin-right: 5px;
+
+}
+
+.baf-sort-menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 12px;
+    text-align: center;
+    background: #FFF;
+    border: 1px solid #CCC;
+}
+
+.baf-sort-menu li:last-child{
+    margin-right: 0px;
+}
+
+.baf-sort-menu li a.sort-selected{
+    background: #2c2c2c;
+    color: #FFF;
+}
+
+#baf_save_sorting{
+    border-radius: 0px !important;
+}
+
+/*-- Option Panel Styles --*/
+
+.baf-option-panel{
+    clear: both;
+}
+
+.baf-option-panel h2:first-child{
+    border-bottom: 0px solid #333333;
+}
+
+.baf-option-panel h2{
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.baf-option-panel select{
+    min-width: 260px;
+}
+
+.faq-wrapper table.form-table th{
+    font-size: 13px;
+}
+
+/*-- Welcome & Addon Page --*/
+
+.baf-about-wrap{
+    clear: both;
+}
+
+.baf-about-wrap ul,
+.baf-about-wrap li,
+.baf-about-wrap p {
+
+    font-size: 13px;
+
+}
+.baf-about-wrap h2 {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.developer-info{
+
+    font-size: 16px;
+}
+
+.welcome-hr{
+    border:0px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.baf-about-wrap a{
+    text-decoration: none;
+}
+
+.baf-about-wrap a:hover{
+    color: #2C2C2C;
+}
+
+.baf-about-wrap ul{
+    clear: both;
+}
+
+.baf-about-wrap li{
+    border-bottom: 1px solid #cccccc;
+    width: 24%;
+    float: left;
+    border: 1px solid #FFFFFF;
+    margin-right: 12px;
+
+}
+
+.baf-about-wrap li:last-child{
+    border-bottom: 0px solid #FFFFFF;
+}
+
+.baf-about-wrap ul.features {
+    width: 100%;
+    clear: both;
+}
+
+.baf-about-wrap ul.features li{
+    width: 100%;
+    border: none;
+}
+
+
+
+.baf-about-wrap li p.addon-title{
+    background: #FFFFFF;
+    margin: 0 0 1px 0 !important;
+    text-align: center;
+    padding: 12px;
+
+}
+
+.baf-about-wrap li p.addon-status{
+    background: #FFFFFF;
+    margin: 1px 0 0 0 !important;
+    text-align: center;
+    padding: 12px;
+
+}
+
+.baf-about-wrap li p.addon-info{
+    text-align: left;
+    padding: 6px;
+    margin: 0;
+    clear: both;
+    background: #FCFCFC;
+}
+
+.baf-about-wrap li p.addon-info img{
+    border-radius: 10px 0;
+    display: inline-block;
+    float: left;
+    margin-right: 7px;
+    margin-top: 3px;
+}
+
+.baf_addon_install{
+    font-size: 16px;
+    display: inline-block;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 2px 10px;
+    background: #ff003a;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.baf_addon_installed{
+    font-size: 16px;
+    display: inline-block;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 2px 10px;
+    background: #47b642;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.baf_addon_install a,
+.baf_addon_installed a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.baf-sc-hints{
+    clear: both;
+}
+
+.baf-sc-hints ol{
+    margin-left: 12px;
+}
+
+.baf-sc-hints ol li{
+    clear: both;
+}
+
+.baf-sc-hints ol li small{
+    background: #edf0f2;
+    padding: 4px 0px;
+    margin-left: -12px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+// Update Notifier.
+
+.update-nag { display: none; }
+#instructions {max-width: 670px;}
+h3.title {margin: 30px 0 0 0; padding: 30px 0 0 0; border-top: 1px solid #ddd;}
+.new_version_box{
+    background: #d54e21;
+    padding: 0 5px;
+    font-weight: bold;
+    color: #FFFFFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+
+}
+
+
+.baf_doc_link,
+.baf_support_link{
+    color:green; 
+    font-weight: bold;
+}

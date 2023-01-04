@@ -1,0 +1,140 @@
+/***********************************************************************************************/
+
+
+/* RTL SUPPORT */
+
+
+/***********************************************************************************************/
+
+.ac-container,
+.bwl-faq-form-container {
+    direction: rtl;
+    unicode-bidi: embed;
+    text-align: right;
+    clear: right;
+}
+
+.ac-container label {
+    padding: 1px 10px 1px 20px;
+}
+
+.ac-container article li {
+    padding-right: 15px;
+}
+
+
+/*------------------------------  RTL SEARCH ---------*/
+
+.ac-container .bwl-faq-search-panel input.semi-rounded {
+    background-position-x: 1.5% !important;
+}
+
+.search_icon {
+    background-position: top 14px left 10px;
+}
+
+.search_load {
+    background-position: top 14px left 10px;
+}
+
+.semi-rounded.search_icon,
+.semi-rounded.search_load {
+    background-position: top 14px left 10px;
+}
+
+.ac-container .bwl-faq-search-panel input.semi-rounded+span.baf-btn-clear {
+    right: initial;
+    left: 14px;
+    top: 7px;
+}
+
+.ac-container .bwl-faq-search-panel span.baf-btn-clear {
+    left: 5px;
+    right: initial;
+}
+
+
+/*------------------------------  FAQ FORM ---------*/
+
+.bwl-faq-form-container form input[type="submit"] {
+    text-align: right;
+}
+
+
+/*------------------------------  TAB SUPPORT ---------*/
+
+.bwl-faq-tabs-ver,
+.bwl-faq-content-wrapper-ver,
+.bwl-faq-wrapper ul.bwl-faq-tabs li {
+    float: right !important;
+    text-align: right;
+}
+
+.bwl-faq-wrapper ul.bwl-faq-tabs-ver li.active {
+    border-top: 0px solid #2c2c2c;
+    border-left: 0px !important;
+    border-right: 3px solid #2c2c2c;
+}
+
+
+/*------------------------------  RTL CHANGES ---------*/
+
+.post-like {
+    float: right;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+label.closed-label,
+label.opened-label {
+    position: relative;
+}
+
+label.opened-label:after,
+label.closed-label:after {
+    background: transparent;
+    display: inline-block;
+    font-size: 20px !important;
+    width: 24px;
+    height: 24px;
+}
+
+label.opened-label:after {
+    transform: rotateZ(0deg) !important;
+    right: initial !important;
+    top: 5px !important;
+    left: 12px !important;
+}
+
+label.closed-label:after {
+    transform: rotateZ(180deg) !important;
+    right: initial !important;
+    top: 3px !important;
+    left: 12px !important;
+}
+
+.baf_layout_round label::after,
+.baf_layout_round label:hover::after,
+.baf_layout_round input:checked+label:hover::after {
+    top: 6px !important;
+}
+
+
+/*------------------------------ Expand & Collapse Button ---------*/
+
+div.baf-ctrl-btn {
+    text-align: left;
+    margin-left: 0 !important;
+}
+
+div.baf-ctrl-btn span.baf-expand-all+span.baf-collapsible-all {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+
+/*-----  Pagination ----*/
+
+#baf_page_navigation {
+    text-align: left;
+}

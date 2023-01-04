@@ -1,0 +1,9 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">bwl_advanced_faq</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">advanced_faq_category</taxonomy>
+        <taxonomy translate="1">advanced_faq_topics</taxonomy>
+    </taxonomies>
+</wpml-config>

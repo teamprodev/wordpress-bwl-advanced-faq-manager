@@ -1,0 +1,32 @@
+/***********************************************************************************************/
+/* RTL SUPPORT */
+/***********************************************************************************************/
+
+#baf_save_sorting{
+    right: initial;
+    left: 0px;
+}
+
+.baf-sort-menu{
+    float: right;
+}
+
+.baf-sort-menu li{
+    float: right;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+#bwl_faq_items .menu-item-handle{
+    padding: 3px 12px 3px 3px;
+}
+
+.baf-sc-hints ol{
+    margin-left: initital;
+    margin-right: 12px;
+}
+
+.baf-sc-hints ol li small{
+    margin-left: initital;
+    margin-right: -12px;
+}

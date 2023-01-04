@@ -1,0 +1,137 @@
+#baf_editor_overlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    z-index:99999;
+    background-color: rgba(0,0,0,0.7);
+    direction:ltr;
+}
+#baf_editor_overlay #baf_editor_popup {
+    background-color: #fff;
+    width:500px;
+    min-height:420px;
+    margin:180px auto 0px auto;
+    border:1px solid #222222;
+    position: relative;
+}
+
+#baf_editor_overlay #baf_editor_popup img.baf_sc_load_icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -14px;
+    margin-left: -14px;
+}
+
+
+#baf_editor_overlay #baf_editor_popup h3 {
+    background-color:#222222;
+    color:#fff;
+    text-align:center;
+    line-height:30px;
+    margin:0px;
+    position: relative;
+    cursor: move;
+}
+
+#baf_editor_overlay #baf_editor_popup span.btn_baf_editor_close{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: verdana;
+    right: 5px;
+    top: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#baf_editor_overlay #baf_editor_popup #baf_editor_popup_content {
+    padding:20px;
+}
+#baf_editor_popup_content .row {
+    margin-bottom:10px;
+}
+#baf_editor_popup_content .row label{
+    display:block;
+    width:160px;
+    text-align:left;
+    line-height:25px;
+    display:inline-block;
+    float:left;
+    margin-right:10px;
+    clear: both;
+}
+
+#baf_editor_popup_content .row input[type="text"]{
+    display:block;
+    width:230px;
+    text-align:left;
+    display:inline-block;
+    border:1px solid #ccc;
+}
+
+#baf_editor_popup_content .row input.baf_input_small{
+    width: 50px;
+}
+
+
+#baf_editor_popup_content .row select {
+    width:270px;
+    text-align:left;
+    display:inline-block;
+    border:1px solid #ccc;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+#baf_editor_popup_content .row .centered{
+    text-align: center;
+    display: block;
+}
+
+#baf_editor_popup_content #baf_editor_popup_buttons {
+    padding-top:20px;
+    border-top:1px solid #ccc;
+}
+#baf_editor_popup_content #baf_editor_popup_buttons #closeShortCodebtn {
+    float:right;
+}
+
+
+/*-- Code --*/
+
+hr.bafm-shortcode-seperator{
+    border: 0px;
+    border-top: 1px solid #D0D0D0;
+    height: 1px;
+}
+
+.bafm_dn{
+    display: none;
+}
+
+input[type="checkbox"].bafm_checkbox{
+
+    margin-top: 5px;
+
+}
+
+#faq_tab_container{
+    clear: both;
+    width: 100%;
+    float: left;
+}
+
+.faq-two-col{
+    float: left;
+    width: 200px;
+}
+
+.text-right{
+    text-align: right !important;
+}
